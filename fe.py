@@ -13,7 +13,7 @@ def load_lottieurl(url):
 
 lottie_animation = load_lottieurl("https://lottie.host/bcaabc19-4490-4d49-ab9f-77d5bb7c283f/uPG7Mc18n0.json")
 with st.container():
-    st.title("NUMBER CONVERTER🔢")
+    st.title("DECIMAL-BINARY CONVERTER🔢")
     conversion = st.radio("What do you want to convert?", ["Binary to Decimal Number", "Decimal to Binary Number"])
 
 #main
