@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-
+st.set_page_config(page_title="ABOUT THE CREATOR", page_icon=":woman:")
 # Set up the sidebar for navigation
 with st.sidebar:
     selected_page = option_menu(
@@ -33,7 +33,7 @@ if selected_page == "About Me":
         st.image(image_path, width=200)
 
     with col2:
-        st.title("Cherry Rose Lubiano", anchor=False)
+        st.title("Cherry Rose M. Lubiano", anchor=False)
         st.write(
             "A driven and curious mechanical engineering student seeking immersive experience to enhance skills in the engineering industry.")
         if st.button("✉️ Contact Me"):
@@ -78,7 +78,7 @@ elif selected_page == "Projects":
          
                 A simple web app that converts base 10 or decimal integer number (positive and negative including zero) into base 2 or binary number and vice versa 
             
-         💻 Matrix Calculator (https://advanced-math-7fgrjhnjamwfra9r3xbuny.streamlit.app/)
+         💻 Matrix Calculator (https://advanced-math-luq9manr8r6xmbethezejn.streamlit.app/)
                 
                 A matrix calculator allows you to perform various operations on matrices, such as addition, multiplication, transpose, inversion, and determinant.
          
