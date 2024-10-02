@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><span>Cher</span>ry.</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Relevant Coursework</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Cherry.</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./image.jpg" alt="Cherry profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Cherry Rose Lubiano!</h1>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./1000000499.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./proxy-image.jpg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Volunteer Leader <br />YoungLife Philippines</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./proxy-image (2).jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Science in Mechanical Engineering at Visayas State University</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              A driven and curious mechanical engineering student seeking immersive experience to enhance skills in the engineering industry.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    
+                
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Relevant Coursework</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./arduino.png"
+                alt="[Output] Arduino Laboratory Exercises"
+                class="project-img"
+                <p>Basic training specializing in various Arduino circuit configurations and programming.</p>
+            </div>
+            <h2 class="experience-sub-title project-title">[Output] Arduino Laboratory Exercises</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/13Jzs3vIKPJaBmp6bdjpEDnT2gq0ssWme/view?usp=sharing'"
+              >
+                View Picture
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./ac dc.jpg"
+                alt="Project 2"
+                class="project-img"
+                <p>Configured and discussed motor settings with 24V DC and AC control systems.</p>
+            </div>
+            <h2 class="experience-sub-title project-title">[Paper] DC and AC Motor Controls Manual</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/13Jzs3vIKPJaBmp6bdjpEDnT2gq0ssWme/view?usp=sharing'"
+              >
+                View Picture
+              </button>
+            </div>
+          </div>
+            
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./dc motor.jpg"
+                alt="Project 3"
+                class="project-img"
+                <p>Fabrication of a direction-controllable DC Shunt Motor and discussion of its theory.</p>
+            </div>
+            <h2 class="experience-sub-title project-title">[Output] DC Shunt Motor</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href=''"
+              >
+                View Picture
+              </button>
+            </div>
+          </div>
+    
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./house.jpg"
+                alt="Project 3"
+                class="project-img"
+                <p>Planning and construction of a miniature house using vinyl tiles with a 5V lighting circuit.</p>
+            </div>
+            <h2 class="experience-sub-title project-title">[Project] 5V Powered Miniature House</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://drive.google.com/file/d/1OKgiBcNOu79pKbC6OoW3VhqtbPSjqmqB/view?usp=sharing'"
+              >
+                View Picture
+              </button>
+            </div>
+          </div>
+     
+      <img
+        src="./arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+
+
+
+    
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./dectobin.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"> Decimal-Binary Converter</h2>
+            <p> A simple web app that converts base 10 or decimal integer number (positive and negative including zero) into base 2 or binary number and vice versa.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://advanced-math-9nd5btdtx8rkdhx5hbgf4n.streamlit.app/'"
+              >
+                App
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./matrix.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"> Matrix Calculator</h2>
+            <p> A matrix calculator allows you to perform various operations on matrices, such as addition, multiplication, transpose, inversion, and determinant.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://advanced-math-5egfhtkjbx2e3ympzt2nxc.streamlit.app/'"
+              >
+                App
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./sle.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">System of Linear Equations Calculator</h2>
+            <p>A web app that will ask the user about the number of Linear Equations or Unknown variables. It find values for these variables that satisfy all the equations simultaneously.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://advanced-math-lvdk6zarbrhaue7yuvwe6m.streamlit.app/'"
+              >
+                App
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:lubianocherryrose@gmail.com">lubianocherryrose@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Relevant Coursework</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Cherry Rose Lubiano. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
